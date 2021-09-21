@@ -56,7 +56,7 @@ int main(int argc, char** argv) {
   int b[num];      // tableau qui a assez de place pour stocker les valeurs triées
 
   for (int i = 0; i < num; i++) {
-    cout << (i + 1) << ": ";            //pour for pour prendre les entrée utilisateurs
+    cout << (i + 1) << ": ";            //boucle for pour prendre les entrée utilisateurs
     cin >> a[i];
   }
 
