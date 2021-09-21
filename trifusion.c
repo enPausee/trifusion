@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 void triFusion(int i, int j, int tab[], int tmp[]) {
     if(j <= i){ return;}
@@ -30,6 +29,7 @@ void triFusion(int i, int j, int tab[], int tmp[]) {
         tab[c] = tmp[c];
     }
 }
+
 int main() {
   int  nbr, i, tab[100], tmp[100];
  
