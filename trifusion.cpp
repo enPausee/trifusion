@@ -52,10 +52,11 @@ int main(int argc, char** argv) {
   int num;
   cout << "How many numbers do you want to sort: ";
   cin >> num;
-  int a[num];
-  int b[num];
+  int a[num];       // tableau contenant les valeurs d'entrée a trier
+  int b[num];      // tableau qui a assez de place pour stocker les valeurs triées
+
   for (int i = 0; i < num; i++) {
-    cout << (i + 1) << ": ";
+    cout << (i + 1) << ": ";            //pour for pour prendre les entrée utilisateurs
     cin >> a[i];
   }
 
